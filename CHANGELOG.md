@@ -6,6 +6,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
-For a full diff see [`e8c2edc...main`][e8c2edc...main].
+For a full diff see [`527049d...main`][527049d...main].
 
-[e8c2edc...main]: https://github.com/ergebnis/php-package-template/compare/e8c2edc...main
+[527049d...main]: https://github.com/ergebnis/php-package-template/compare/527049d...main
