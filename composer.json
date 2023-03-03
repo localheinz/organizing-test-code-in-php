@@ -1,6 +1,6 @@
 {
   "name": "localheinz/organizing-test-code-in-php",
-  "description": "Provides a companion repository for organizing test code",
+  "description": "Provides a companion repository for organizing test code in PHP",
   "license": "MIT",
   "type": "library",
   "authors": [
