@@ -1,10 +1,15 @@
 .PHONY: it
-it: refactoring coding-standards security-analysis static-code-analysis autoloader ## Runs the refactoring, coding-standards, security-analysis, static-code-analysis, and autoloader targets
+it: refactoring coding-standards security-analysis static-code-analysis tests performance-tests mutation-tests autoloader ## Runs the refactoring, coding-standards, security-analysis, static-code-analysis, tests, performance-tests, mutation-tests, and autoloader targets
 
 .PHONY: autoloader
 autoloader: ## Dumps the autoloader for production and verifies that it does not include classes not intended for production
 	composer dump-autoload --no-dev --optimize
 	php autoloader.php
+
+.PHONY: code-coverage
+code-coverage: vendor ## Collects coverage from running unit tests with phpunit/phpunit
+	mkdir -p .build/phpunit
+	vendor/bin/phpunit --configuration=phpunit.xml --coverage-text
 
 .PHONY: coding-standards
 coding-standards: vendor ## Lints YAML files with yamllint, normalizes composer.json with ergebnis/composer-normalize, and fixes code style issues with friendsofphp/php-cs-fixer
@@ -20,6 +25,15 @@ dependency-analysis: phive vendor ## Runs a dependency analysis with maglnet/com
 .PHONY: help
 help: ## Displays this list of targets with descriptions
 	@grep -E '^[a-zA-Z0-9_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[32m%-30s\033[0m %s\n", $$1, $$2}'
+
+.PHONY: performance-tests
+performance-tests: vendor ## Runs performance tests with phpbench/phpbench
+	vendor/bin/phpbench run --config=phpbench.json src/Test/
+
+.PHONY: mutation-tests
+mutation-tests: vendor ## Runs mutation tests with infection/infection
+	mkdir -p .build/infection
+	vendor/bin/infection --configuration=infection.json
 
 .PHONY: phive
 phive: .phive ## Installs dependencies with phive
@@ -46,6 +60,11 @@ static-code-analysis-baseline: vendor ## Generates a baseline for static code an
 	mkdir -p .build/psalm
 	vendor/bin/psalm --config=psalm.xml --clear-cache
 	vendor/bin/psalm --config=psalm.xml --set-baseline=psalm-baseline.xml
+
+.PHONY: tests
+tests: vendor ## Runs tests with phpunit/phpunit
+	mkdir -p .build/phpunit
+	vendor/bin/phpunit --configuration=phpunit.xml
 
 vendor: composer.json composer.lock
 	composer validate --strict
