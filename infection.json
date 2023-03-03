@@ -1,0 +1,20 @@
+{
+  "ignoreMsiWithNoMutations": true,
+  "logs": {
+    "text": ".build/infection/infection-log.txt"
+  },
+  "minCoveredMsi": 100,
+  "minMsi": 100,
+  "phpUnit": {
+    "configDir": "src/Test/Unit/"
+  },
+  "source": {
+    "directories": [
+      "src"
+    ],
+    "excludes": [
+      "Test/"
+    ]
+  },
+  "timeout": 10
+}
