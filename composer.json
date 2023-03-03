@@ -1,5 +1,5 @@
 {
-  "name": "localheinz/organizing-test-code",
+  "name": "localheinz/organizing-test-code-in-php",
   "description": "Provides a companion repository for organizing test code",
   "license": "MIT",
   "type": "library",
@@ -9,10 +9,10 @@
       "email": "am@localheinz.com"
     }
   ],
-  "homepage": "https://github.com/localheinz/organizing-test-code",
+  "homepage": "https://github.com/localheinz/organizing-test-code-in-php",
   "support": {
-    "issues": "https://github.com/localheinz/organizing-test-code/issues",
-    "source": "https://github.com/localheinz/organizing-test-code"
+    "issues": "https://github.com/localheinz/organizing-test-code-in-php/issues",
+    "source": "https://github.com/localheinz/organizing-test-code-in-php"
   },
   "require": {
     "php": "~8.2.0"
@@ -33,7 +33,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Localheinz\\OrganizingTestCode\\": "src/"
+      "Localheinz\\OrganizingTestCodeInPhp\\": "src/"
     }
   },
   "config": {

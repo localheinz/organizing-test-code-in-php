@@ -56,7 +56,7 @@ repository:
   archived: false
   default_branch: "main"
   delete_branch_on_merge: true
-  description: ":bulb: Provides a companion repository for organizing test code."
+  description: ":bulb: Provides a companion repository for organizing test code in PHP."
   enable_automated_security_fixes: true
   enable_vulnerability_alerts: true
   has_downloads: true
@@ -64,7 +64,7 @@ repository:
   has_pages: false
   has_projects: false
   has_wiki: false
-  name: "organizing-test-code"
+  name: "organizing-test-code-in-php"
   private: false
 
   # https://docs.github.com/en/rest/reference/repos#replace-all-repository-topics

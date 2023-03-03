@@ -8,19 +8,19 @@ declare(strict_types=1);
  * For the full copyright and license information, please view
  * the LICENSE.md file that was distributed with this source code.
  *
- * @see https://github.com/localheinz/organizing-test-code
+ * @see https://github.com/localheinz/organizing-test-code-in-php
  */
 
 use Composer\InstalledVersions;
-use Localheinz\OrganizingTestCode;
+use Localheinz\OrganizingTestCodeInPhp;
 
 $actual = require __DIR__ . '/vendor/composer/autoload_classmap.php';
 
 $expected = [
     InstalledVersions::class => __DIR__ . '/vendor/composer/InstalledVersions.php',
-    OrganizingTestCode\Example::class => __DIR__ . '/src/Example.php',
-    OrganizingTestCode\ValueCanNotBeBlank::class => __DIR__ . '/src/ValueCanNotBeBlank.php',
-    OrganizingTestCode\ValueCanNotBeEmpty::class => __DIR__ . '/src/ValueCanNotBeEmpty.php',
+    OrganizingTestCodeInPhp\Example::class => __DIR__ . '/src/Example.php',
+    OrganizingTestCodeInPhp\ValueCanNotBeBlank::class => __DIR__ . '/src/ValueCanNotBeBlank.php',
+    OrganizingTestCodeInPhp\ValueCanNotBeEmpty::class => __DIR__ . '/src/ValueCanNotBeEmpty.php',
 ];
 
 $diff = \array_diff_assoc(

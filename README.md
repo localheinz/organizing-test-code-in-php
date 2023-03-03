@@ -1,18 +1,18 @@
-# organizing-test-code
+# organizing-test-code-in-php
 
-[![Integrate](https://github.com/localheinz/organizing-test-code/workflows/Integrate/badge.svg)](https://github.com/localheinz/organizing-test-code/actions)
-[![Merge](https://github.com/localheinz/organizing-test-code/workflows/Merge/badge.svg)](https://github.com/localheinz/organizing-test-code/actions)
-[![Release](https://github.com/localheinz/organizing-test-code/workflows/Release/badge.svg)](https://github.com/localheinz/organizing-test-code/actions)
-[![Renew](https://github.com/localheinz/organizing-test-code/workflows/Renew/badge.svg)](https://github.com/localheinz/organizing-test-code/actions)
+[![Integrate](https://github.com/localheinz/organizing-test-code-in-php/workflows/Integrate/badge.svg)](https://github.com/localheinz/organizing-test-code-in-php/actions)
+[![Merge](https://github.com/localheinz/organizing-test-code-in-php/workflows/Merge/badge.svg)](https://github.com/localheinz/organizing-test-code-in-php/actions)
+[![Release](https://github.com/localheinz/organizing-test-code-in-php/workflows/Release/badge.svg)](https://github.com/localheinz/organizing-test-code-in-php/actions)
+[![Renew](https://github.com/localheinz/organizing-test-code-in-php/workflows/Renew/badge.svg)](https://github.com/localheinz/organizing-test-code-in-php/actions)
 
-[![Code Coverage](https://codecov.io/gh/localheinz/organizing-test-code/branch/main/graph/badge.svg)](https://codecov.io/gh/localheinz/organizing-test-code)
-[![Type Coverage](https://shepherd.dev/github/localheinz/organizing-test-code/coverage.svg)](https://shepherd.dev/github/localheinz/organizing-test-code)
+[![Code Coverage](https://codecov.io/gh/localheinz/organizing-test-code-in-php/branch/main/graph/badge.svg)](https://codecov.io/gh/localheinz/organizing-test-code-in-php)
+[![Type Coverage](https://shepherd.dev/github/localheinz/organizing-test-code-in-php/coverage.svg)](https://shepherd.dev/github/localheinz/organizing-test-code-in-php)
 
-[![Latest Stable Version](https://poser.pugx.org/localheinz/organizing-test-code/v/stable)](https://packagist.org/packages/localheinz/organizing-test-code)
-[![Total Downloads](https://poser.pugx.org/localheinz/organizing-test-code/downloads)](https://packagist.org/packages/localheinz/organizing-test-code)
-[![Monthly Downloads](http://poser.pugx.org/localheinz/organizing-test-code/d/monthly)](https://packagist.org/packages/localheinz/organizing-test-code)
+[![Latest Stable Version](https://poser.pugx.org/localheinz/organizing-test-code-in-php/v/stable)](https://packagist.org/packages/localheinz/organizing-test-code-in-php)
+[![Total Downloads](https://poser.pugx.org/localheinz/organizing-test-code-in-php/downloads)](https://packagist.org/packages/localheinz/organizing-test-code-in-php)
+[![Monthly Downloads](http://poser.pugx.org/localheinz/organizing-test-code-in-php/d/monthly)](https://packagist.org/packages/localheinz/organizing-test-code-in-php)
 
-Provides a companion repository for [Organizing test code]().
+Provides a companion repository for [Organizing test code in PHP]().
 
 ## Changelog
 
