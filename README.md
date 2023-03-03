@@ -12,7 +12,7 @@
 [![Total Downloads](https://poser.pugx.org/localheinz/organizing-test-code-in-php/downloads)](https://packagist.org/packages/localheinz/organizing-test-code-in-php)
 [![Monthly Downloads](http://poser.pugx.org/localheinz/organizing-test-code-in-php/d/monthly)](https://packagist.org/packages/localheinz/organizing-test-code-in-php)
 
-Provides a companion repository for [Organizing test code in PHP]().
+Provides a companion repository for [Organizing test code in PHP](https://localheinz.com/articles/2023/03/03/organizing-test-code-in-php/).
 
 ## Changelog
 
