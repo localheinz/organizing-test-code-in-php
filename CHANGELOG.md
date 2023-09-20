@@ -8,4 +8,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 For a full diff see [`527049d...main`][527049d...main].
 
-[527049d...main]: https://github.com/ergebnis/php-package-template/compare/527049d...main
+[527049d...main]: https://github.com/localheinz/organizing-test-code-in-php/compare/527049d...main
