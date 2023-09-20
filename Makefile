@@ -10,8 +10,8 @@ autoloader: ## Dumps the autoloader for production and verifies that it does not
 coding-standards: vendor ## Lints YAML files with yamllint, normalizes composer.json with ergebnis/composer-normalize, and fixes code style issues with friendsofphp/php-cs-fixer
 	yamllint -c .yamllint.yaml --strict .
 	composer normalize
-	mkdir -p .build/php-cs-fixer
-	PHP_CS_FIXER_IGNORE_ENV=1 vendor/bin/php-cs-fixer fix --config=.php-cs-fixer.php --diff --verbose
+	mkdir -p .build/php-cs-fixer/
+	vendor/bin/php-cs-fixer fix --config=.php-cs-fixer.php --diff --verbose
 
 .PHONY: dependency-analysis
 dependency-analysis: phive vendor ## Runs a dependency analysis with maglnet/composer-require-checker
@@ -23,11 +23,12 @@ help: ## Displays this list of targets with descriptions
 
 .PHONY: phive
 phive: .phive ## Installs dependencies with phive
-	mkdir -p .build/phive
+	mkdir -p .build/phive/
 	PHIVE_HOME=.build/phive phive install --trust-gpg-keys 0x033E5F8D801A2F8D
 
 .PHONY: refactoring
 refactoring: vendor ## Runs automated refactoring with rector/rector
+	mkdir -p .build/rector/
 	vendor/bin/rector process --config=rector.php
 
 .PHONY: security-analysis

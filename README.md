@@ -12,26 +12,34 @@
 [![Total Downloads](https://poser.pugx.org/localheinz/organizing-test-code-in-php/downloads)](https://packagist.org/packages/localheinz/organizing-test-code-in-php)
 [![Monthly Downloads](http://poser.pugx.org/localheinz/organizing-test-code-in-php/d/monthly)](https://packagist.org/packages/localheinz/organizing-test-code-in-php)
 
-Provides a companion repository for [Organizing test code in PHP](https://localheinz.com/articles/2023/03/03/organizing-test-code-in-php/).
+This package provides a companion repository for [Organizing test code in PHP](https://localheinz.com/articles/2023/03/03/organizing-test-code-in-php/).
 
 ## Changelog
 
-Please have a look at [`CHANGELOG.md`](CHANGELOG.md).
+The maintainers of this package record notable changes to this project in a [changelog](CHANGELOG.md).
 
 ## Contributing
 
-Please have a look at [`CONTRIBUTING.md`](.github/CONTRIBUTING.md).
+The maintainers of this package suggest following the [contribution guide](.github/CONTRIBUTING.md).
 
 ## Code of Conduct
 
-Please have a look at [`CODE_OF_CONDUCT.md`](.github/CODE_OF_CONDUCT.md).
+The maintainers of this package ask contributors to follow the [code of conduct](.github/CODE_OF_CONDUCT.md).
+
+## General Support Policy
+
+The maintainers of this package provide limited support.
+
+You can support the maintenance of this package by [sponsoring @localheinz](https://github.com/sponsors/localheinz) or [requesting an invoice for services related to this package](mailto:am@localheinz.com?subject=localheinz/organizing-test-code-in-php:%20Requesting%20invoice%20for%20services).
+
+## Security Policy
+
+This package has a [security policy](.github/SECURITY.md).
 
 ## License
 
-This package is licensed using the MIT License.
+This package uses the [MIT license](LICENSE.md).
 
-Please have a look at [`LICENSE.md`](LICENSE.md).
+## Social
 
-## Curious what I am up to?
-
-Follow me on [Twitter](https://twitter.com/intent/follow?screen_name=localheinz)!
+Follow [@localheinz](https://twitter.com/intent/follow?screen_name=localheinz) on Twitter.
