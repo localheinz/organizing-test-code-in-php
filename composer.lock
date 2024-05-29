@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d15a47e5442d3b5513208f517e9f4adf",
+    "content-hash": "53de996acfa6cb31d31e4b904066693e",
     "packages": [],
     "packages-dev": [
         {
@@ -1383,22 +1383,22 @@
         },
         {
             "name": "ergebnis/php-cs-fixer-config",
-            "version": "6.29.0",
+            "version": "6.30.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ergebnis/php-cs-fixer-config.git",
-                "reference": "4aef813c360b858db2140ab66f4ef09b7abca345"
+                "reference": "89d73d3d0c6d1e2e017711cecab9b01fcbd779e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ergebnis/php-cs-fixer-config/zipball/4aef813c360b858db2140ab66f4ef09b7abca345",
-                "reference": "4aef813c360b858db2140ab66f4ef09b7abca345",
+                "url": "https://api.github.com/repos/ergebnis/php-cs-fixer-config/zipball/89d73d3d0c6d1e2e017711cecab9b01fcbd779e6",
+                "reference": "89d73d3d0c6d1e2e017711cecab9b01fcbd779e6",
                 "shasum": ""
             },
             "require": {
                 "erickskrauch/php-cs-fixer-custom-fixers": "~1.2.4",
                 "ext-filter": "*",
-                "friendsofphp/php-cs-fixer": "~3.57.1",
+                "friendsofphp/php-cs-fixer": "~3.58.0",
                 "kubawerlos/php-cs-fixer-custom-fixers": "~3.21.0",
                 "php": "~7.4.0 || ~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.3.0"
             },
@@ -1412,7 +1412,7 @@
                 "infection/infection": "~0.26.6",
                 "phpunit/phpunit": "^9.6.19",
                 "psalm/plugin-phpunit": "~0.19.0",
-                "rector/rector": "^1.0.5",
+                "rector/rector": "^1.1.0",
                 "symfony/filesystem": "^5.0.0 || ^6.0.0",
                 "symfony/process": "^5.0.0 || ^6.0.0",
                 "vimeo/psalm": "^5.24.0"
@@ -1447,7 +1447,7 @@
                 "security": "https://github.com/ergebnis/php-cs-fixer-config/blob/main/.github/SECURITY.md",
                 "source": "https://github.com/ergebnis/php-cs-fixer-config"
             },
-            "time": "2024-05-17T07:50:22+00:00"
+            "time": "2024-05-29T11:38:01+00:00"
         },
         {
             "name": "ergebnis/phpunit-slow-test-detector",
@@ -1856,16 +1856,16 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v3.57.2",
+            "version": "v3.58.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-                "reference": "22f7f3145606df92b02fb1bd22c30abfce956d3c"
+                "reference": "55d3483c80c09f91d876aa4e2971ce349d07310c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/22f7f3145606df92b02fb1bd22c30abfce956d3c",
-                "reference": "22f7f3145606df92b02fb1bd22c30abfce956d3c",
+                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/55d3483c80c09f91d876aa4e2971ce349d07310c",
+                "reference": "55d3483c80c09f91d876aa4e2971ce349d07310c",
                 "shasum": ""
             },
             "require": {
@@ -1944,7 +1944,7 @@
             ],
             "support": {
                 "issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.57.2"
+                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.58.0"
             },
             "funding": [
                 {
@@ -1952,7 +1952,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-05-20T20:41:57+00:00"
+            "time": "2024-05-28T16:55:30+00:00"
         },
         {
             "name": "infection/abstract-testframework-adapter",
