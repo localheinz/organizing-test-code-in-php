@@ -46,6 +46,28 @@ make dependency-analysis
 
 to run a dependency analysis.
 
+## Mutation Tests
+
+We are using [`infection/infection`](https://github.com/infection/infection) to ensure a minimum quality of the tests.
+
+Enable `Xdebug` and run
+
+```sh
+make mutation-tests
+```
+
+to run mutation tests.
+
+## Performance Tests
+
+We are using [`phpbench/phpbench`](https://github.com/phpbench/phpbench) to control the performance of our production code.
+
+```sh
+make performance-tests
+```
+
+to run performance tests.
+
 ## Refactoring
 
 We are using [`rector/rector`](https://github.com/rectorphp/rector) to automatically refactor code.
@@ -94,6 +116,17 @@ to regenerate the baseline in [`../psalm-baseline.xml`](../psalm-baseline.xml).
 
 :exclamation: Ideally, the baseline should shrink over time.
 
+## Tests
+
+We are using [`phpunit/phpunit`](https://github.com/sebastianbergmann/phpunit) to drive the development.
+
+Run
+
+```sh
+make tests
+```
+
+to run all the tests.
 
 ## Extra lazy?
 
@@ -103,7 +136,7 @@ Run
 make
 ```
 
-to automatically refactor code, enforce coding standards, and run a static code analysis!
+to automatically refactor code, enforce coding standards, run a static code analysis, run tests, run performance tests, and run mutation tests!
 
 ## Help
 
