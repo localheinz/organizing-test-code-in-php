@@ -36,6 +36,11 @@
       "Localheinz\\OrganizingTestCodeInPhp\\": "src/"
     }
   },
+  "autoload-dev": {
+    "psr-4": {
+      "Localheinz\\OrganizingTestCodeInPhp\\Test\\": "test/"
+    }
+  },
   "config": {
     "allow-plugins": {
       "composer/package-versions-deprecated": true,
