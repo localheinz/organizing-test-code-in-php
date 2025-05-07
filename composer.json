@@ -34,7 +34,10 @@
   "autoload": {
     "psr-4": {
       "Localheinz\\OrganizingTestCodeInPhp\\": "src/"
-    }
+    },
+    "exclude-from-classmap": [
+      "/src/Test/"
+    ]
   },
   "config": {
     "allow-plugins": {
